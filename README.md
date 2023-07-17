@@ -49,11 +49,17 @@ curl http://localhost:8080/reward/addTransaction -d "userID=Bill&price=100&date=
 
 # Implementation
 
-Controller, Service and Repository classes are created for presentation layer, service layer and DAO,
+Controller, Service and Repository classes are created for presentation layer, service layer and DAO with Spring Boot.
 
 This service uses Hibernate as ORM and utilizes the H2 database for data storage and retrieval.
 
 JPA Criteria Queries API is used to create SQL queries.
+
+# Build
+
+To build the service, run this command in terminal:
+
+'gradle build'
 
 # Unit test
 
@@ -71,3 +77,4 @@ Some transaction data is added for test:
 | 150.0   | 150      | 2023-02-01  | 4    | Bill     |
 | 100.0   | 50       | 2022-07-01  | 5    | Alice    |
 | 60.0    | 10       | 2023-07-01  | 6    | Alice    |
+
