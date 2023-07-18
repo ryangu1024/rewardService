@@ -59,7 +59,7 @@ JPA Criteria Queries API is used to create SQL queries.
 
 To build the service, run this command in terminal:
 
-'gradle build'
+'mvn clean compile'
 
 # Unit test
 
